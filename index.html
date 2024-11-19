@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego del DeLorean</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+      <span id="timer">15:00</span>
+      <button id="startBtn">Start</button>
+    </div>
+
+    <div class="road-container">
+      <img id="delorean" src="DeLorean.png" alt="DeLorean">
+      <div class="road"></div>
+    </div>
+
+    <div class="input-container">
+      <input type="text" id="speedInput" placeholder="Escribe algo...">
+      <button id="speedBtn">Speed</button>
+    </div>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <p id="popupMessage"></p>
+      <button id="downloadBtn">Descargar</button>
+      <button id="closePopup">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
